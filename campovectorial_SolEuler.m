@@ -1,7 +1,8 @@
+%% Ejercicio dispersión de particulas con Euler y Runge Kutta 2
 clear all
 close all
 clc
-%% hasta aquí se grafics un campo vectorial
+%% hasta aquí se grafica un campo vectorial
 [x, y]= meshgrid(-2:.1:2); %Define el paso
 %define X y Y como u y v
 u=-y; v=x;
